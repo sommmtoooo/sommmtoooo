@@ -35,7 +35,7 @@ import projects from "../data/projects.json";
     <Section>
       <Subtitle>Tools</Subtitle>
       <Paragraph>
-        My primary technology is Typescript. Below are some languages/tools
+        My primary technology are Typescript & Python. Below are some languages/tools
         which I utilize for an efficient workflow or upgrade my arsenal of tools
         for the right job.
       </Paragraph>
@@ -64,14 +64,9 @@ import projects from "../data/projects.json";
           to build something or make my workflow much more efficient.
         </Paragraph>
         <div
-          class={`${false ? "grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4" : ""} mt-5 gap-x-6 gap-y-5`}
+          class={`${true ? "grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4" : ""} mt-5 gap-x-6 gap-y-5`}
         >
-          <h6>---</h6>
-          <Paragraph class="text-sm">
-            Currently, I have no technology I am exploring other than my primary
-            stack. I am currently expanding my knowledge on Typescript. Would
-            share the new tools I venture into in time to come.
-          </Paragraph>
+        <ToolCard name="Flask" />
         </div>
       </div>
     </Section>

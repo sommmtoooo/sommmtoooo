@@ -24,7 +24,7 @@ interface Props {
 }
 
 const { blog } = Astro.props;
-let { title, description, keywords, date } = blog?.data;
+let { title, description, keywords, date, cover } = blog?.data;
 const { Content } = await blog?.render();
 const formattedDAte = new Date(date).toLocaleString("en-US", {
   dateStyle: "long",
@@ -67,7 +67,7 @@ if (!keywords)
     <meta property="twitter:url" content="https://somtodev.netlify.app" />
     <meta property="twitter:title" content={title} />
     <meta property="twitter:description" content={description} />
-    <meta property="twitter:image" content={metaUrl} />
+    <meta property="twitter:image" content={cover ? cover : metaUrl} />
 
     <meta property="og:site_name" content="Somtochukwu" />
     <meta property="og:site" content="Somtochukwu" />
