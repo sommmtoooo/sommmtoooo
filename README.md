@@ -1,3 +1,0 @@
-# Nothing but my personal website with a blog
-
-With no much thought, this could be my last personal website repository for a long time...
