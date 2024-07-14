@@ -16,32 +16,42 @@ import projects from "../data/projects.json";
 <Layout title="Somtochukwu">
   <Main>
     <TopBar />
-
-    {/* Top Section */}
-    <Section>
-      <Paragraph>
-        Hello, I am Somto. I love crafting software that solves problems for
-        myself and others. Although I'm a certified software engineer, I still
-        feel like there's so much to learn. As I continue my journey into the
-        world of software development, my passion for the craft knows no bounds.
-        <br />
-      </Paragraph>
-      <Paragraph>
-        In my free time, I enjoy reading articles and books, and creating videos
-        that I never share online. I also love playing chess whenever I need a
-        mental break.
-      </Paragraph>
-    </Section>
-
+    <div class="grid grid-cols-1 gap-x-6 my-6 lg:my-8 xl:grid-cols-4 xl:my-12">
+      <img
+        src="/profile.png"
+        width="200"
+        height="200"
+        class="object-fit rounded-md"
+      />
+      {/* Top Section */}
+      <Section class="col-span-3 self-start">
+        <Paragraph>
+          Hello, I am Somto. I love crafting software that solves problems for
+          myself and others. Although I'm a certified software engineer, I still
+          feel like there's so much to learn. As I continue my journey into the
+          world of software development, my passion for the craft knows no
+          bounds.
+          <br />
+        </Paragraph>
+        <Paragraph>
+          In my free time, I enjoy reading articles and books, and creating
+          videos that I never share online. I also love playing chess whenever I
+          need a mental break.
+        </Paragraph>
+      </Section>
+    </div>
     {/* Tools Section */}
     <Section>
       <Subtitle>Work</Subtitle>
       <Paragraph>
         Currently, I am training over a dozen students in web design, database
-        management, and other technologies at <a class="text-green-500">Prime Innovation Institute Of
-        Technology</a>. I also build web
-        applications at <a href="https://codecamp.ng/" class="text-green-500">Codecamp Nigeria</a>. On the side, I craft websites to help
-        small-scale businesses connect with their customers.
+        management, and other technologies at <a class="text-green-500"
+          >Prime Innovation Institute Of Technology</a
+        >. I also build web applications at <a
+          href="https://codecamp.ng/"
+          class="text-green-500">Codecamp Nigeria</a
+        >. On the side, I craft websites to help small-scale businesses connect
+        with their customers.
       </Paragraph>
     </Section>
 
@@ -50,8 +60,8 @@ import projects from "../data/projects.json";
       <Subtitle>Tools</Subtitle>
       <Paragraph>
         My primary technologies are Typescript & Python. Below are some
-        languages/tools which I utilize for an efficient workflow, school projects or to upgrade
-        my arsenal of tools for the right job.
+        languages/tools which I utilize for an efficient workflow, school
+        projects or to upgrade my arsenal of tools for the right job.
       </Paragraph>
       <div
         class="mt-5 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-5"
