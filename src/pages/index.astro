@@ -20,14 +20,28 @@ import projects from "../data/projects.json";
     {/* Top Section */}
     <Section>
       <Paragraph>
-        Hello 🖐, I am Somtochukwu. A software developer passionate at writing
-        digital solutions to problems (the right way). I'm not a fan of
-        abstraction due to my curious mind but I do create one when needed.
+        Hello, I am Somto. I love crafting software that solves problems for
+        myself and others. Although I'm a certified software engineer, I still
+        feel like there's so much to learn. As I continue my journey into the
+        world of software development, my passion for the craft knows no bounds.
         <br />
       </Paragraph>
       <Paragraph>
-        In my free time, I read books and articles to make me do better as a
-        person and as a developer.
+        In my free time, I enjoy reading articles and books, and creating videos
+        that I never share online. I also love playing chess whenever I need a
+        mental break.
+      </Paragraph>
+    </Section>
+
+    {/* Tools Section */}
+    <Section>
+      <Subtitle>Work</Subtitle>
+      <Paragraph>
+        Currently, I am training over a dozen students in web design, database
+        management, and other technologies at <a class="text-green-500">Prime Innovation Institute Of
+        Technology</a>. I also build web
+        applications at <a href="https://codecamp.ng/" class="text-green-500">Codecamp Nigeria</a>. On the side, I craft websites to help
+        small-scale businesses connect with their customers.
       </Paragraph>
     </Section>
 
@@ -35,9 +49,9 @@ import projects from "../data/projects.json";
     <Section>
       <Subtitle>Tools</Subtitle>
       <Paragraph>
-        My primary technology are Typescript & Python. Below are some languages/tools
-        which I utilize for an efficient workflow or to upgrade my arsenal of tools
-        for the right job.
+        My primary technologies are Typescript & Python. Below are some
+        languages/tools which I utilize for an efficient workflow, school projects or to upgrade
+        my arsenal of tools for the right job.
       </Paragraph>
       <div
         class="mt-5 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-5"
@@ -55,10 +69,11 @@ import projects from "../data/projects.json";
         <ToolCard name="MongoDB" />
         <ToolCard name="SQLite" />
         <ToolCard name="Git" />
+        <ToolCard name="Flask" />
         <ToolCard name="Linux" />
         <ToolCard name="Neovim" />
       </div>
-      <div class="border-[1px] border-neutral-500 rounded-xl p-4 mt-5">
+      <div class="border-[1px] border-green-500 rounded-xl p-4 mt-5">
         <Paragraph class="prose-sm">
           Here are other tools I'm currently diving deeper into, with the intent
           to build something or to make my workflow much more efficient.
@@ -66,7 +81,9 @@ import projects from "../data/projects.json";
         <div
           class={`${true ? "grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4" : ""} mt-5 gap-x-6 gap-y-5`}
         >
-        <ToolCard name="Flask" />
+          <ToolCard name="FastAPI" />
+          <ToolCard name="Docker" />
+          <ToolCard name="PostgreSQL" />
         </div>
       </div>
     </Section>
@@ -76,9 +93,9 @@ import projects from "../data/projects.json";
       <Subtitle>Projects</Subtitle>
       <Paragraph>
         In my free time, I try to build things I could use to solve personal
-        problems and sometimes just for fun. Here are projects I have worked on
-        for problems I face personally or for the sole aim to know how something
-        works.
+        problems and sometimes just for fun. Here are some projects which aren't
+        private that I have worked on for problems I face personally or for the
+        sole aim to know how something works.
       </Paragraph>
       <div
         class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-8 lg:gap-8 mt-5"
@@ -94,12 +111,3 @@ import projects from "../data/projects.json";
     <BottomBar />
   </Main>
 </Layout>
-
-{
-  /*
-    // components breakdown
-    // Topbar
-    // MiniBlogCard
-    // BlogCard
-*/
-}

@@ -19,7 +19,7 @@ const { name, description, image, github, url, status } = project;
     />
     {
       status ? (
-        <span class="absolute bg-neutral-500 text-neutral-200 rounded-sm text-xs px-[.3rem] py-[.24rem] top-0 right-0">
+        <span class="absolute bg-green-600 text-neutral-200 rounded-sm text-xs px-[.3rem] py-[.24rem] top-0 right-0">
           {status}
         </span>
       ) : (
@@ -37,7 +37,7 @@ const { name, description, image, github, url, status } = project;
             rel="noreferrer"
             target="_blank"
             href={url}
-            class="flex gap-2 items-center text-xs bg-emerald-800 cursor-pointer bg-opacity-40 rounded-sm px-[.4em] py-[.24em]"
+            class="flex gap-2 items-center text-xs bg-green-700 cursor-pointer bg-opacity-40 rounded-sm px-[.4em] py-[.24em]"
           >
             Live
           </a>
@@ -51,7 +51,7 @@ const { name, description, image, github, url, status } = project;
             rel="noreferrer"
             target="_blank"
             href={github}
-            class="text-xs bg-emerald-800 cursor-pointer rounded-sm px-[.4em] py-[.24em]"
+            class="text-xs text-black bg-green-300 cursor-pointer rounded-sm px-[.4em] py-[.24em]"
           >
             Repo
           </a>
