@@ -1,5 +1,11 @@
+Software. Photography.
 
+### About Me
 
-## License
+- 🚀 Currently exploring web development / matrices / data structures & algorithms
+- 🌱 Always learning and growing.
+- 🎯 Focused on writing clean, efficient, and maintainable code.
 
-This project uses a [template](https://vercel.com/templates) provided by [Vercel](https://vercel.com), licensed under the MIT License.
+---
+
+"Even if you are not ready for the day, it can't always be night" – Baby Keem
