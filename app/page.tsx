@@ -1,21 +1,23 @@
-import { BlogPosts } from 'app/components/posts'
+import { BlogPosts } from "app/components/posts";
+import { FeatureProjects } from "./components/projects";
+import Image from "next/image";
 
 export default function Page() {
-  return (
-    <section>
-      <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        My Portfolio
-      </h1>
-      <p className="mb-4">
-        {`I'm a Vim enthusiast and tab advocate, finding unmatched efficiency in
-        Vim's keystroke commands and tabs' flexibility for personal viewing
-        preferences. This extends to my support for static typing, where its
-        early error detection ensures cleaner code, and my preference for dark
-        mode, which eases long coding sessions by reducing eye strain.`}
-      </p>
-      <div className="my-8">
-        <BlogPosts />
-      </div>
-    </section>
-  )
+	return (
+		<section>
+			<h1 className="mb-8 text-2xl font-semibold tracking-tight">Somtochukwu</h1>
+			<p className="mb-4">
+				{`Hi there, I am Somtochukwu, a software developer with a thinkpad and a heart for solving problem with software.`}
+			</p>
+			<div className="my-8">
+				<h2 className="mb-4 text-xl font-medium tracking-tighter">Writing</h2>
+				<BlogPosts />
+			</div>
+
+			<div className="my-8">
+				<h2 className="mb-4 text-xl font-medium tracking-tighter">Featured Project</h2>
+				<FeatureProjects />
+			</div>
+		</section>
+	);
 }
