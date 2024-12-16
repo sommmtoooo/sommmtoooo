@@ -8,4 +8,4 @@ Software. Photography.
 
 ---
 
-"Even if you are not ready for the day, it can't always be night" – Baby Keem
+> "Even if you are not ready for the day, it can't always be night" – Baby Keem
