@@ -21,7 +21,7 @@ export default function Footer() {
 						className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
 						rel="noopener noreferrer"
 						target="_blank"
-						href="https://github.com/sommmmtoooo/sommmmtoooo">
+						href="https://github.com/sommmtoooo/sommmtoooo">
 						<ArrowIcon />
 						<p className="ml-2 h-7">github</p>
 					</a>
@@ -31,7 +31,7 @@ export default function Footer() {
 						className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
 						rel="noopener noreferrer"
 						target="_blank"
-						href="https://x.com/sommmmtoooo">
+						href="https://x.com/sommmtoooo">
 						<ArrowIcon />
 						<p className="ml-2 h-7">twitter</p>
 					</a>
